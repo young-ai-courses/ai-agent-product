@@ -1,0 +1,25 @@
+# 這就是 CI（持續整合）—— 你每次 push，GitHub 會自動檢查「這份 code 還 build 得起來嗎」
+#
+# 為什麼需要它：AI 幫你改 code 有時會改壞。有這個檔，壞掉的 code 一 push 上來
+# GitHub 就會標紅叉，你當下就知道 —— 而不是等 Vercel 部署失敗、
+# 或使用者打開網站看到白畫面才發現
+#
+# 它是免費的（public repo 無限額度），設好就不用管
+
+name: CI
+
+on:
+  push:
+    branches: ['**']
+  pull_request:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: npm install
+      - run: npm run build
