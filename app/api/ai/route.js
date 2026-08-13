@@ -86,7 +86,7 @@ export async function POST(request) {
         ],
         // temperature 調低 = 每次結果更穩定，格式比較不會跑掉
         temperature: 0.2,
-        max_tokens: 1200,
+        max_completion_tokens: 1200,
       }),
     });
 
