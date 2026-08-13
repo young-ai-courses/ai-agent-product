@@ -45,7 +45,7 @@
 |---|---|
 | 「還沒設定 GROQ_API_KEY」 | key 沒加，或加了沒 Redeploy |
 | 「Groq 回了 401」 | key 貼錯或已被刪，重產一把 |
-| 「Groq 回了 429」 | 太多人同時打，等 30 秒。不是你弄壞了 |
+| 「Groq 回了 429」 | 碰到 Groq 的 rate limit。稍後再試，不是你弄壞了 |
 | 「Groq 回了 403」 | `User-Agent` 那行被拿掉了，加回去 |
 
 ---
