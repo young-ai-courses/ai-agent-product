@@ -105,3 +105,7 @@
 
 這三個字之後在職場上你會一直聽到。現在先知道「為什麼需要它們」就夠了 ——
 因為你手上這個東西，正好就缺它們。
+
+---
+
+授權：本教材採 [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/)，可分享、改作，須標示來源，不可商用｜© 2026 睿度科技有限公司 Redutek Co., Ltd.（見 [LICENSE](LICENSE)）
